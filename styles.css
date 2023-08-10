@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+   /* display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilos para el contenedor principal del reloj */
+.clock-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Estilos para las tarjetas de los números */
+.countdown-card {
+    width: 80px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los números */
+.countdown-number {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para las etiquetas de los números */
+.countdown-label {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Estilos para las horas de clase que faltan */
+.work-hours-card{
+    width: 100% !important;
+    margin-top: 30px;
+}
+
+/* Título */
+body > h1 {
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contador Regresivo</title>
+</head>
+<body>
+    <!-- Título del contador regresivo -->
+    <h1>¿Cuanto falta hasta el 14 de Septiembre de 2023?</h1>
+
+    <!-- Contenedor principal del reloj analógico de tarjetas -->
+    <div class="clock-card">
+        <!-- Tarjeta para los meses -->
+        <div class="countdown-card">
+            <span class="countdown-number" id="months">0</span>
+            <span class="countdown-label">Mes/es</span>
+        </div>
+        <!-- Tarjeta para los días -->
+        <div class="countdown-card">
+            <span class="countdown-number" id="days">0</span>
+            <span class="countdown-label">Día/s</span>
+        </div>
+        <!-- Tarjeta para las horas -->
+        <div class="countdown-card">
+            <span class="countdown-number" id="hours">0</span>
+            <span class="countdown-label">Hora/s</span>
+        </div>
+        <!-- Tarjeta para los minutos -->
+        <div class="countdown-card">
+            <span class="countdown-number" id="minutes">0</span>
+            <span class="countdown-label">Minuto/s</span>
+        </div>
+        <!-- Tarjeta para los segundos -->
+        <div class="countdown-card">
+            <span class="countdown-number" id="seconds">0</span>
+            <span class="countdown-label">Segundo/s</span>
+        </div>
+    </div>
+
+    <!-- Tarjeta separada para las horas de clase en una nueva línea -->
+    <div class="countdown-card work-hours-card">
+        <span class="countdown-number" id="workHours">0</span>
+        <span class="countdown-label">Horas de clase que faltan. Solo se cuentan las que van de 09:00 AM a 14:00 PM</span>
+    </div>
+
+    <!-- Enlace al archivo de script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
